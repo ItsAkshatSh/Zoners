@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_road",
   "bboxMode":0,
-  "bbox_bottom":143,
+  "bbox_bottom":287,
   "bbox_left":0,
-  "bbox_right":335,
+  "bbox_right":255,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"339ae1cf-9662-45c0-80f0-8663f91a90cb","name":"339ae1cf-9662-45c0-80f0-8663f91a90cb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"716bd223-50e4-4458-9621-8680923df668","name":"716bd223-50e4-4458-9621-8680923df668","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":144,
+  "height":288,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f1c34c3d-af46-4943-85f3-99198586b185","blendMode":0,"displayName":"default","isLocked":false,"name":"f1c34c3d-af46-4943-85f3-99198586b185","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d6a59662-9149-4942-8f71-2bcd7327631b","blendMode":0,"displayName":"default","isLocked":false,"name":"d6a59662-9149-4942-8f71-2bcd7327631b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_road",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"339ae1cf-9662-45c0-80f0-8663f91a90cb","path":"sprites/spr_road/spr_road.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ff18c96a-fc9a-4ac1-bb57-7472ccc4e094","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"716bd223-50e4-4458-9621-8680923df668","path":"sprites/spr_road/spr_road.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"925fb02c-5ce2-4f7d-b485-b90d662fcd00","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":336,
+  "width":256,
 }
