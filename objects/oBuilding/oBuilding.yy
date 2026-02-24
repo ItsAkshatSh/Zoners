@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"oBuilding",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"oBuilding",
   "overriddenProperties":[],
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_buildings",
+    "path":"sprites/spr_buildings/spr_buildings.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
