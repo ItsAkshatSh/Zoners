@@ -21,14 +21,28 @@ if (instance_exists(global.delivery_target))
     {
         var t = global.delivery_target;
         var angle = point_direction(p.x, p.y, t.x, t.y);
-        var ax = cx + vw - 32;
-        var ay = cy + 32;
-        var size = 12;
+
+        // position the arrow at the top‑center of the screen
+        var ax = cx + vw * 0.5;
+        var ay = cy + 40;
+
+        // make a clear arrow shape
+        var tip_len  = 18;
+        var base_len = 10;
+        var half_w   = 8;
+
+        var tip_x  = ax + lengthdir_x(tip_len, angle);
+        var tip_y  = ay + lengthdir_y(tip_len, angle);
+        var base_x = ax + lengthdir_x(base_len, angle + 180);
+        var base_y = ay + lengthdir_y(base_len, angle + 180);
+
+        var left_x  = base_x + lengthdir_x(half_w, angle - 90);
+        var left_y  = base_y + lengthdir_y(half_w, angle - 90);
+        var right_x = base_x + lengthdir_x(half_w, angle + 90);
+        var right_y = base_y + lengthdir_y(half_w, angle + 90);
+
         draw_set_color(c_orange);
-        draw_triangle(ax, ay,
-                      ax + lengthdir_x(size, angle-140), ay + lengthdir_y(size, angle-140),
-                      ax + lengthdir_x(size, angle+140), ay + lengthdir_y(size, angle+140),
-                      false);
+        draw_triangle(tip_x, tip_y, left_x, left_y, right_x, right_y, false);
     }
 }
 
